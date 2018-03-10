@@ -1,1 +1,1 @@
-worker: python hzbot.py
+worker python hzbot.py
