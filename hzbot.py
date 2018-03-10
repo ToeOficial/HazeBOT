@@ -58,4 +58,4 @@ async def embed(ctx):
     embed.set_author(name="T0E")
     embed.add_field(name="Hello darkness my old friend...", value="I've come to talk with you again...", inline=True)
     await client.say(embed=embed)
-client.run("NDA1NzY5NTU3NDQyMTY2Nzg0.DYV-Pw.1a9BWnyQOdmjpyBuL6eat5BEHCs")
+client.run("process.env.TOKEN")
