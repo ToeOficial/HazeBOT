@@ -1,1 +1,1 @@
-worker python hzbot.py
+web: python hzbot.py
