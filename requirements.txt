@@ -3,3 +3,4 @@ asyncio
 aiohttp
 websockets
 chardet
+pip
