@@ -58,4 +58,6 @@ async def embed(ctx):
     embed.set_author(name="T0E")
     embed.add_field(name="Hello darkness my old friend...", value="I've come to talk with you again...", inline=True)
     await client.say(embed=embed)
-client.run("process.env.TOKEN")
+    
+from boto.s3.connection import S3Connection
+client.run("S3Connection(os.environ['TOKEN'])")
